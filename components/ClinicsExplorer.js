@@ -40,9 +40,10 @@ export default function ClinicsExplorer({ clinics }) {
   return (
     <div ref={containerRef} className="scroll-mt-6">
       <div className="relative max-w-md mb-8">
-        <Search size={18} className="absolute top-1/2 -translate-y-1/2 start-3 text-ink/40" />
+        <Search size={18} className="absolute top-1/2 -translate-y-1/2 start-3.5 text-ink/40 pointer-events-none select-none" />
         <input
-          className="field ps-10"
+          className="field !ps-11 pe-4"
+          style={{ paddingInlineStart: "2.75rem" }}
           placeholder="ابحث عن عيادة أو تخصص..."
           value={q}
           onChange={handleSearchChange}
