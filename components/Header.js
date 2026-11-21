@@ -15,9 +15,14 @@ export default function Header() {
       <div className="bg-brand-dark text-white text-sm">
         <div className="container-x flex items-center justify-between py-1.5">
           <span>{site.hours}</span>
-          <a href={`tel:${site.hotline}`} className="flex items-center gap-1.5 font-bold">
-            <Phone size={14} /> الخط الساخن: {site.hotline}
-          </a>
+          <div className="flex items-center gap-4">
+            <a href={`tel:${site.phones[0]}`} className="flex items-center gap-1.5 font-bold">
+              <Phone size={14} /> رقم الهاتف: {site.phones[0]}
+            </a>
+            <a href={`tel:${site.hotline}`} className="flex items-center gap-1.5 font-bold">
+              <Phone size={14} /> الخط الارضى: {site.hotline}
+            </a>
+          </div>
         </div>
       </div>
       <div className="container-x flex items-center justify-between py-3">

@@ -7,7 +7,7 @@ export const site = {
   phones: ["01015050170", "01015050171"],
   hotline: "0237810017",
   email: "info@example.com",
-  hours: "الطوارئ والاستقبال على مدار 24 ساعة",
+  hours: "الطوارئ و الاستقبال على مدار 24 ساعة",
   mapQuery: "Giza International Hospital for Applicants",
   // TODO: رابط فيديو يوتيوب (embed) للتعريف بالمستشفى، مثال: https://www.youtube.com/embed/XXXX
   videoUrl: "",
