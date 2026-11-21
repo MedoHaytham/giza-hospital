@@ -2,10 +2,10 @@
 export const site = {
   name: "مستشفى الجيزة الدولي",
   tagline: "رعاية طبية متكاملة بأيدٍ متخصصة",
-  address: "56-58 شارع الهرم، التطبيقية القبلية، العمرانية، الجيزة",
+  address: "13 Nasir El-Thawra, Al Omraneyah Al Gharbeyah, El Omraniya, Giza Governorate 3546220, Egypt",
   // TODO: ضع أرقام المستشفى الحقيقية
-  phones: ["0000 000 0000", "0000 000 0000"],
-  hotline: "0000",
+  phones: ["01015050170", "01015050171"],
+  hotline: "0237810017",
   email: "info@example.com",
   hours: "الطوارئ والاستقبال على مدار 24 ساعة",
   mapQuery: "Giza International Hospital for Applicants",
